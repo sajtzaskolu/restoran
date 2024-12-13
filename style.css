@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: darkslategray;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    background-color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 18px;
+}
+
+.pocetna {
+    background-image: url("slike/unutrasnjost.jpg"); 
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    color: black;
+    text-align: center;
+}
+
+.pocetna h1 {
+    font-size: 1.2em;
+    padding: 20px; 
+    background-color: rgb(32, 32, 32);
+    border: 2px solid rgb(32, 32, 32); 
+    border-radius: 10px;
+    width: 50%;
+    margin: 20px auto; 
+    color: white;
+}
+
+.pocetna p {
+    font-size: 1.2em;
+    padding: 20px; 
+    background-color: rgb(32, 32, 32);
+    border: 2px solid rgb(32, 32, 32); 
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px auto; 
+    color: white;
+}
+
+.pocetna .btn {
+    background-color: red;
+    color: white;
+    padding: 15px 25px;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.onama {
+    background-color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.onama h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.onama p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.onama1 {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.onama2 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 4px 8px black;
+}
+
+.onama2 h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.onama2 p {
+    font-size: 1em;
+}
+
+.menipocetna {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.menipocetna h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.menipocetna p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.meni1 {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.meni2 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 4px 8px black;
+}
+
+.meni2 h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.meni2 p {
+    font-size: 1em;
+}
+
+.meni, .kontakt {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+body.kontakt-page {
+    background-image: url('slike/unutrasnjost.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+    color: white;  
+}
+
+.kontakt p {
+    font-size: 1.2em;
+    padding: 20px; 
+    background-color: rgb(32, 32, 32);
+    border: 2px solid white; 
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px auto; 
+    color: white;
+}
+
+.kontakt h1{
+    font-size: 1.2em;
+    padding: 20px; 
+    background-color: rgb(32, 32, 32);
+    border: 2px solid white; 
+    border-radius: 10px;
+    width: 50%;
+    margin: 20px auto; 
+    color: white;
+}
+
+.meni {
+    background-image: url('slike/menirestorana.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    color: black;
+    text-align: center;
+}
+
+.meni h1 {
+    font-size: 1.2em;
+    padding: 20px; 
+    background-color: rgb(32, 32, 32);
+    border: 2px solid rgb(32, 32, 32); 
+    border-radius: 10px;
+    width: 50%;
+    margin: 20px auto; 
+    color: white;
+}
+
+.meni p {
+    font-size: 1.2em;
+    padding: 20px; 
+    background-color: rgb(32, 32, 32);
+    border: 2px solid rgb(32, 32, 32); 
+    border-radius: 10px;
+    width: 50%;
+    margin: 20px auto; 
+    color: white;
+}
+
+.meni3 {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.meni3 h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.meni-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.meni-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.meni-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.meni-item p {
+    font-size: 1em;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
+
+.kontakt-footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
